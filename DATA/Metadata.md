@@ -24,7 +24,7 @@ There is an ethical concern since some of the images do not just have a dog in i
 | Label | Label of the breed of the dog | FrenchBulldog, Beagle, GermanShepherd, Shi-Tzu, GoldenRetriever, Schnauzer, MiniaturePoodle, Husky |
 
 ## Exploratory Plots
-![ImagesPerDog](../OUTPUT/classdistributionplot.png)
+![ImagesPerDog](../OUTPUT/classdistributionplot.jpg)
 With this plot, we were able to clearly visualize if there are any major class imbalances in the data that could lead to predictions favoring one class over another. This plot shows that this does not look to be too big of an issue. Shi-Tzu, Beagle, and Siberian Husky have the most images, but many of the breeds have around 160 images. Thus, we do see class imbalance as a major issue.
 
 ![ImageHeight](../OUTPUT/heightplot.png)
