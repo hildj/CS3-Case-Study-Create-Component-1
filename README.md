@@ -39,11 +39,12 @@ We used a Mac to make this project.
 
 *1. DATA Folder*
 
-* Beagle/, FrenchBulldog/, GermanShepherd/, GoldenRetriever/, MiniaturePoodle/, Schnauzer/, ShihTzu/, SiberianHusky/ – Each folder contains PNG images of the corresponding breed.
-* metadata.csv – CSV file containing image IDs and corresponding breed labels for reproducibility.
+* Beagle/, FrenchBulldog/, GermanShepherd/, GoldenRetriever/, MiniaturePoodle/, Schnauzer/, ShihTzu/, SiberianHusky/ – Each folder contains jpg images of the corresponding breed.
+* metadata.md – Metadata for our project that includes data summary, provenance, license, EDA plots, data disctionary, and ethical statements.
 
 *2. OUTPUT Folder*
 
+* TestModelAccuracyRuns.png - Looks at losses across epochs and test accuracy.
 * classdistributionplot.jpg – Plot showing the number of images per breed.
 * heightplot.png – Histogram of image heights across all images.
 * widthplot.png – Histogram of image widths across all images.
@@ -70,16 +71,18 @@ We used a Mac to make this project.
 
 *Step 2: Make Sure the Data Files Are There*
 
-* Ensure that all breed folders (Beagle/, FrenchBulldog/, etc.) and metadata.csv are in the same folder as the notebooks.
+* Ensure that all breed folders (Beagle/, FrenchBulldog/, etc.) and metadata.md are in the same folder as the notebooks.
 * These files are included in the repository, so no additional downloads are needed.
 
 *Step 3: Install Python and Packages*
 
-* Install Python (version 3.8 or higher) if not already installed.
-* Install required packages:
+* Install Python (version 3.8 or higher) and R if not already installed.
+* Install required packages in Python:
 
   bash
   pip install tensorflow numpy pandas matplotlib seaborn scikit-learn opencv-python
+
+* Install the tidyverse in R if not done as well.
   
 *Step 4: Run the Analysis*
 
