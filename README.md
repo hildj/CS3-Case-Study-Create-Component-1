@@ -4,7 +4,7 @@ This repository contains a dataset of images of different dog breeds, as well as
 
 ## Contents of this repository
 
-This repository contains everything needed to reproduce the analyses and results for this project: image data for 7 different dog breeds, Jupyter notebooks for preprocessing and analysis, output plots, and model accuracy metrics. The sections below outline software requirements, repository structure, and step-by-step instructions to reproduce the results.
+This repository contains everything needed to reproduce the analyses and results for this project: image data for 8 different dog breeds, Jupyter notebooks for preprocessing and analysis, output plots, and model accuracy metrics. The sections below outline software requirements, repository structure, and step-by-step instructions to reproduce the results.
 
 
 ---
@@ -15,6 +15,7 @@ This repository contains everything needed to reproduce the analyses and results
 
 * Python (version 3.8 or higher) for preprocessing, training, and evaluation of CNN models.
 * Jupyter Notebook for scripting and interactive analysis.
+* R for making some EDA plots.
 * Git for version control and GitHub for hosting.
 
 *Python Packages Required (install via pip or conda):*
@@ -25,6 +26,13 @@ This repository contains everything needed to reproduce the analyses and results
 * matplotlib and seaborn (visualizations)
 * scikit-learn (train/test splitting, metrics)
 * opencv-python (image preprocessing)
+* os (access files from operating system)
+
+*R Packages Required*
+
+* tidyverse (data handling and making visualizations)
+
+We used a Mac to make this project.
 
 
 ## Section 2: Map of Documentation
