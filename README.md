@@ -16,8 +16,8 @@ Provides an overview of the project and a roadmap for navigating the included ma
 ---
 
 ### **2. Hook.pdf**
-A one-page scenario designed to *motivate engagement* with the case study.  
-- Places the student in a realistic situation involving dog breed analytics.  
+A scenario about the case study.  
+- A realistic situation involving dog breed analytics.  
 - Introduces the topic, context, and motivation.  
 - Technical requirements (those are in the rubric).  
 
