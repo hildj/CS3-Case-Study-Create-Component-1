@@ -60,8 +60,8 @@ Includes all Python and R scripts necessary for:
 
 ## Getting Started
 
-1. Start by reading **`Hook.pdf`**.  
-2. Review **`Rubric.pdf`** for full instructions and deliverables.  
+1. Start by reading **Hook.pdf**.  
+2. Review **Rubric.pdf** for full instructions and deliverables.  
 3. Explore the **DATA** folder.  
 4. Walk through the code in **Scripts**.  
 5. Use **Supplemental_Materials** to deepen understanding.  
