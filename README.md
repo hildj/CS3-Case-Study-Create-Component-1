@@ -10,12 +10,12 @@ This project uses a dog breed dataset to help students practice **exploratory da
 
 ## Repository Structure
 
-### **1. `README.md` (this file)**
+### **1. README.md**
 Provides an overview of the project and a roadmap for navigating the included materials.
 
 ---
 
-### **2. `Hook.pdf`**
+### **2. Hook.pdf**
 A one-page scenario designed to *motivate engagement* with the case study.  
 - Places the student in a realistic situation involving dog breed analytics.  
 - Introduces the topic, context, and motivation.  
@@ -23,7 +23,7 @@ A one-page scenario designed to *motivate engagement* with the case study.
 
 ---
 
-### **3. `Rubric.pdf`**
+### **3. Rubric.pdf**
 A detailed two-page rubric outlining:
 - Required deliverables  
 - Formatting expectations  
@@ -33,14 +33,14 @@ A detailed two-page rubric outlining:
 
 ---
 
-### **4. `DATA/` Folder**
+### **4. DATA/ Folder**
 Contains the dataset relevant to the case study. 
 - A cleaned dataset used for analysis and visualization  
 Students should begin by reviewing the cleaned dataset and exploring column meanings.
 
 ---
 
-### **5. `Scripts/` Folder**
+### **5. Scripts/ Folder**
 Includes all Python and R scripts necessary for: 
 - Import and inspect the data  
 - Clean relevant columns  
@@ -49,7 +49,7 @@ Includes all Python and R scripts necessary for:
 
 ---
 
-### **6. `Supplemental_Materials/` Folder**
+### **6. Supplemental_Materials/ Folder**
 - A **blog-style explainer** introducing why dog breed visualizations matter in real-world decision-making (included in hard-copy)  
 - An ** article** supporting the CNN working model and visualization techniques used (also included in hard-copy)  
 
