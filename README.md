@@ -1,101 +1,75 @@
-# DS-4002-Project-3
+# DS-4002-Case-Study-3
+# Dog Breed Visualization Case Study  
+### CS3: Data Visualization & Analysis — Case Study Repository
 
-This repository contains a dataset of images of different dog breeds, as well as scripts and outputs to accurately classify what breed a dog image is classified. Our project uses a CNN (Convolutional Neural Network) model, a type of deep learning model, to see how an image is classified as being a part of 8 different dog breeds. All images used, exploratory analyses, and model predictions are included to enable reproduction of all results. 
+Welcome to the **Dog Breed Visualization Case Study** repository. This repo contains everything needed to understand, explore, and complete the case study from the motivating scenario to the technical materials that support data cleaning, analysis, and visualization.
 
-## Contents of this repository
-
-This repository contains everything needed to reproduce the analyses and results for this project: image data for 8 different dog breeds, Jupyter notebooks for preprocessing and analysis, output plots, and model accuracy metrics. The sections below outline software requirements, repository structure, and step-by-step instructions to reproduce the results.
-
+This project uses a dog breed dataset to help students practice **exploratory data analysis, data cleaning, and visualization techniques**, all framed within a real-world scenario presented in the Hook document.
 
 ---
 
-## Section 1: Software and Platform
+## Repository Structure
 
-*Software Used:*
+### **1. `README.md` (this file)**
+Provides an overview of the project and a roadmap for navigating the included materials.
 
-* Python (version 3.8 or higher) for preprocessing, training, and evaluation of CNN models.
-* Jupyter Notebook for scripting and interactive analysis.
-* R for making some EDA plots.
-* Git for version control and GitHub for hosting.
+---
 
-*Python Packages Required (install via pip or conda):*
+### **2. `Hook.pdf`**
+A one-page scenario designed to *motivate engagement* with the case study.  
+- Places the student in a realistic situation involving dog breed analytics.  
+- Introduces the topic, context, and motivation.  
+- Technical requirements (those are in the rubric).  
 
-* pytorch (for CNN modeling)
-* numpy (numerical operations)
-* pandas (data handling)
-* matplotlib and seaborn (visualizations)
-* scikit-learn (train/test splitting, metrics)
-* opencv-python (image preprocessing)
-* os (access files from operating system)
+---
 
-*R Packages Required*
+### **3. `Rubric.pdf`**
+A detailed two-page rubric outlining:
+- Required deliverables  
+- Formatting expectations  
+- Writing expectations  
+- Code expectations  
+- Reference requirements  
 
-* tidyverse (data handling and making visualizations)
+---
 
-We used a Mac to make this project.
+### **4. `DATA/` Folder**
+Contains the dataset relevant to the case study. 
+- A cleaned dataset used for analysis and visualization  
+Students should begin by reviewing the cleaned dataset and exploring column meanings.
 
+---
 
-## Section 2: Map of Documentation
+### **5. `Scripts/` Folder**
+Includes all Python and R scripts necessary for: 
+- Import and inspect the data  
+- Clean relevant columns  
+- Perform exploratory data analysis (EDA)  
+- Reproduce the pre-trained model on Pytorch
 
-*1. DATA Folder*
+---
 
-* Beagle/, FrenchBulldog/, GermanShepherd/, GoldenRetriever/, MiniaturePoodle/, Schnauzer/, ShihTzu/, SiberianHusky/ – Each folder contains jpg images of the corresponding breed.
-* metadata.md – Metadata for our project that includes data summary, provenance, license, EDA plots, data disctionary, and ethical statements.
-
-*2. OUTPUT Folder*
-
-* TestModelAccuracyRuns.png - Looks at losses across epochs and test accuracy.
-* classdistributionplot.jpg – Plot showing the number of images per breed.
-* heightplot.png – Histogram of image heights across all images.
-* widthplot.png – Histogram of image widths across all images.
-
-*3. SCRIPTSFolder*
-
-* ClassDistributionPlot.Rmd – Script used to create the class distribution plot.
-* Histograms of Image Width and Height.ipynb – Script used to create the histograms of image height and widths.
-* MI3_Modelupdated.ipynb – Notebook for building, training, and evaluating the CNN model.
-
+### **6. `Supplemental_Materials/` Folder**
+- A **blog-style explainer** introducing why dog breed visualizations matter in real-world decision-making (included in hard-copy)  
+- An ** article** supporting the CNN working model and visualization techniques used (also included in hard-copy)  
 
 
-## Section 3 – How to Reproduce Our Results
+-
 
-*Step 1: Get the Repository*
+---
 
-* Clone the repository using Git:
+## Getting Started
 
-  bash
-  git clone https://github.com/gbharathit/DS-4002-Project-3.git
-  
-* Or download it as a ZIP file and extract it.
-* Open Jupyter Notebook and set your working directory to the project folder.
+1. Start by reading **`Hook.pdf`**.  
+2. Review **`Rubric.pdf`** for full instructions and deliverables.  
+3. Explore the **DATA** folder.  
+4. Walk through the code in **Scripts**.  
+5. Use **Supplemental_Materials** to deepen understanding.  
 
-*Step 2: Make Sure the Data Files Are There*
+---
 
-* Ensure that all breed folders (Beagle/, FrenchBulldog/, etc.) and metadata.md are in the same folder as the notebooks.
-* These files are included in the repository, so no additional downloads are needed.
+## License  
+This repository is for academic use within DS 4002.
 
-*Step 3: Install Python and Packages*
-
-* Install Python (version 3.8 or higher) and R if not already installed.
-* Install required packages in Python:
-
-  bash
-  pip install tensorflow numpy pandas matplotlib seaborn scikit-learn opencv-python
-
-* Install the tidyverse in R if not done as well.
-  
-*Step 4: Run the Analysis*
-
-* Open ClassDistributionPlot.Rmd in R and Histograms of Image Width and Height.ipynb in Jupyter Notebook or Google Colab to explore the dataset.
-* Open MI3_Modelupdated.ipynb to train the CNN model and evaluate predictions.
-* Generated outputs include plots, metrics, and confusion matrices for model performance.
-
-*Step 5: Troubleshooting*
-
-* Make sure your working directory is set to the project folder.
-* Ensure all image folders and metadata.csv are present.
-* If issues occur, check your Python environment and package versions with:
-
-  python
-  !pip list
+---
 
