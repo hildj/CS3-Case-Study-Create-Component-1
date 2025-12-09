@@ -50,11 +50,9 @@ Includes all Python and R scripts necessary for:
 ---
 
 ### **6. Supplemental_Materials/ Folder**
-- A **blog-style explainer** introducing why dog breed visualizations matter in real-world decision-making (included in hard-copy)  
-- An ** article** supporting the CNN working model and visualization techniques used (also included in hard-copy)  
+- A blog-style explainer introducing why dog breed visualizations matter in real-world decision-making (included in hard-copy)  
+- An article supporting the CNN working model and visualization techniques used (also included in hard-copy)  
 
-
--
 
 ---
 
